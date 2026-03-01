@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia das Mulheres 2026 - Modas Dilô | Celebre o Seu Corpo, Celebre Você</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-blue': '#0E2440',
+                        'brand-green': '#078C03',
+                        'brand-yellow': '#F2D027',
+                        'brand-peach': '#ffece6',
+                        'brand-rose': '#D4817E',
+                        'brand-nude': '#E8C5B5',
+                        'brand-gold': '#D4A574',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap');
+        body { font-family: 'Montserrat', sans-serif; }
+        
+        .gradient-hero {
+            background: linear-gradient(135deg, #D4817E 0%, #E8C5B5 100%);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #D4817E 0%, #C87352 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .shine-effect {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .shine-effect::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -100%;
+            width: 50%;
+            height: 200%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transform: rotate(45deg);
+            animation: shine 3s infinite;
+        }
+        
+        @keyframes shine {
+            0% { left: -100%; }
+            50%, 100% { left: 200%; }
+        }
+        
+        .pulse-glow {
+            animation: pulse-glow 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 0 20px rgba(212, 129, 126, 0.5); }
+            50% { box-shadow: 0 0 40px rgba(212, 129, 126, 0.8); }
+        }
+        
+        .product-card {
+            transition: all 0.3s ease;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        
+        .flower-icon {
+            display: inline-block;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    
+    <!-- HEADER COM LOGO -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-center">
+                <div class="bg-gray-200 w-48 h-20 rounded-lg flex items-center justify-center">
+                    <p class="text-gray-500 font-bold text-sm">[LOGO MODAS DILÔ]</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="gradient-hero relative overflow-hidden py-20 md:py-32">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-10 left-10 text-6xl flower-icon">🌹</div>
+            <div class="absolute top-32 right-20 text-5xl flower-icon" style="animation-delay: 0.5s;">✨</div>
+            <div class="absolute bottom-20 left-32 text-4xl flower-icon" style="animation-delay: 1s;">🌸</div>
+            <div class="absolute bottom-32 right-10 text-5xl flower-icon" style="animation-delay: 1.5s;">💐</div>
+        </div>
+        
+        <div class="container mx-auto px-4 md:px-6 relative z-10">
+            <div class="max-w-6xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <div class="mb-6">
+                            <span class="inline-block bg-white/20 backdrop-blur-sm px-6 py-2 rounded-full text-sm font-semibold border-2 border-white/30">
+                                🌹 Semana da Mulher Dilô
+                            </span>
+                        </div>
+                        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight text-white">
+                            Celebre o Seu Corpo,<br/>
+                            <span class="text-brand-gold">Celebre Você</span>
+                        </h1>
+                        <p class="text-xl md:text-2xl mb-8 text-white">
+                            Você merece se sentir <strong>bonita, confiante e confortável</strong> em todos os momentos. 
+                            Esta semana é sua: presenteie-se com até <strong class="text-brand-gold">15% OFF</strong> 
+                            em todo o site! ✨
+                        </p>
+                        <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-6 mb-8 border-2 border-white/30">
+                            <h3 class="text-2xl font-bold mb-4 text-brand-gold">💝 Quanto Mais Você Se Cuida, Mais Você Ganha:</h3>
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between bg-white/10 rounded-lg p-3 border border-white/20">
+                                    <span class="text-lg">1 peça</span>
+                                    <span class="text-2xl font-bold text-brand-gold">5% OFF</span>
+                                </div>
+                                <div class="flex items-center justify-between bg-white/10 rounded-lg p-3 border border-white/20">
+                                    <span class="text-lg">2 peças</span>
+                                    <span class="text-2xl font-bold text-brand-gold">10% OFF</span>
+                                </div>
+                                <div class="flex items-center justify-between bg-white/20 rounded-lg p-3 border-2 border-brand-gold pulse-glow">
+                                    <span class="text-lg">3 peças ou +</span>
+                                    <span class="text-2xl font-bold text-brand-gold">15% OFF</span>
+                                </div>
+                            </div>
+                            <p class="text-sm text-white mt-4 text-center">
+                                ✨ Desconto automático no carrinho - sem cupom!
+                            </p>
+                        </div>
+                        <a href="https://www.modasdilo.com.br/" class="inline-block bg-brand-gold text-brand-blue font-bold text-lg px-10 py-5 rounded-full hover:bg-yellow-300 transition-all transform hover:scale-105 shine-effect shadow-2xl">
+                            💛 Quero Me Presentear Agora
+                        </a>
+                    </div>
+                    
+                    <div class="hidden md:block">
+                        <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border-4 border-white/30">
+                            <div class="bg-gray-200 rounded-2xl aspect-[3/4] flex items-center justify-center">
+                                <p class="text-gray-500 text-center px-8">
+                                    [IMAGEM HERO]<br/>
+                                    images/hero-diamulheres.jpg<br/>
+                                    Mulher confiante<br/>
+                                    Sorrindo, feliz<br/>
+                                    35-50 anos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COUNTDOWN -->
+    <section class="py-8 bg-gradient-to-r from-brand-rose to-brand-nude">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h3 class="text-2xl md:text-3xl font-bold mb-4 text-brand-blue">⏰ A Sua Semana Especial Termina Em:</h3>
+                <div class="flex justify-center gap-4 md:gap-8" id="countdown">
+                    <div class="bg-white rounded-xl p-4 min-w-[80px] shadow-lg">
+                        <div class="text-4xl md:text-5xl font-bold text-brand-rose" id="days">00</div>
+                        <div class="text-sm uppercase mt-1 text-gray-700">Dias</div>
+                    </div>
+                    <div class="bg-white rounded-xl p-4 min-w-[80px] shadow-lg">
+                        <div class="text-4xl md:text-5xl font-bold text-brand-rose" id="hours">00</div>
+                        <div class="text-sm uppercase mt-1 text-gray-700">Horas</div>
+                    </div>
+                    <div class="bg-white rounded-xl p-4 min-w-[80px] shadow-lg">
+                        <div class="text-4xl md:text-5xl font-bold text-brand-rose" id="minutes">00</div>
+                        <div class="text-sm uppercase mt-1 text-gray-700">Min</div>
+                    </div>
+                    <div class="bg-white rounded-xl p-4 min-w-[80px] shadow-lg">
+                        <div class="text-4xl md:text-5xl font-bold text-brand-rose" id="seconds">00</div>
+                        <div class="text-sm uppercase mt-1 text-gray-700">Seg</div>
+                    </div>
+                </div>
+                <p class="mt-4 text-lg text-brand-blue font-semibold">Válido até 08 de Março de 2026 às 23h59</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4 text-brand-blue">Como Funciona o Seu Presente? 🎁</h2>
+                    <p class="text-xl text-gray-600">É simples: quanto mais você se cuida, mais você economiza!</p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <!-- Passo 1 -->
+                    <div class="text-center p-8 bg-brand-peach rounded-3xl border-2 border-brand-rose/20 hover:border-brand-rose transition-all">
+                        <div class="bg-brand-rose text-white rounded-full w-20 h-20 flex items-center justify-center text-3xl font-bold mx-auto mb-6 shadow-lg">
+                            1
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-brand-blue">Escolha Suas Peças</h3>
+                        <p class="text-gray-700 text-lg">
+                            Navegue por <strong>todo o site</strong> e adicione ao carrinho as peças que mais combinam com você. 
+                            Moda praia, fitness, lingerie, pijamas... é tudo seu!
+                        </p>
+                    </div>
+
+                    <!-- Passo 2 -->
+                    <div class="text-center p-8 bg-brand-peach rounded-3xl border-2 border-brand-rose/20 hover:border-brand-rose transition-all">
+                        <div class="bg-brand-rose text-white rounded-full w-20 h-20 flex items-center justify-center text-3xl font-bold mx-auto mb-6 shadow-lg">
+                            2
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-brand-blue">Desconto Automático</h3>
+                        <p class="text-gray-700 text-lg">
+                            <strong>Não precisa de cupom!</strong> O desconto é aplicado automaticamente no carrinho. 
+                            1 peça = 5%, 2 peças = 10%, 3+ peças = 15% OFF!
+                        </p>
+                    </div>
+
+                    <!-- Passo 3 -->
+                    <div class="text-center p-8 bg-brand-peach rounded-3xl border-2 border-brand-rose/20 hover:border-brand-rose transition-all">
+                        <div class="bg-brand-rose text-white rounded-full w-20 h-20 flex items-center justify-center text-3xl font-bold mx-auto mb-6 shadow-lg">
+                            3
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-brand-blue">Receba em Casa</h3>
+                        <p class="text-gray-700 text-lg">
+                            Finalize sua compra com <strong>parcela no cartão</strong>, PIX ou boleto. 
+                            Enviamos para todo Brasil com segurança e carinho! 📦💛
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-center bg-gradient-to-r from-brand-rose/20 to-brand-nude/20 rounded-2xl p-8 border-2 border-brand-rose/30">
+                    <p class="text-2xl font-bold text-brand-blue mb-3">
+                        💡 Dica Esperta da Dilô:
+                    </p>
+                    <p class="text-xl text-gray-700">
+                        Monte seu kit completo! Um biquíni + uma saída de praia + um top fitness = 
+                        <strong class="text-brand-rose">3 peças = 15% OFF automático!</strong> 
+                        Você merece estar linda em todos os momentos! ✨
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARROSSEL 1 - FITNESS -->
+    <section class="py-20 bg-brand-peach">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4 text-brand-blue">💪 Para Suar com Estilo</h2>
+                    <p class="text-xl text-gray-700">Treinar nunca foi tão prazeroso! Conforto + beleza que te fazem invencível.</p>
+                </div>
+                
+                <div class="grid md:grid-cols-4 gap-6 mb-8">
+                    <!-- Produto Fitness 1 -->
+                    <div class="product-card bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-gray-100">
+                        <div class="bg-gray-200 aspect-[3/4] flex items-center justify-center">
+                            <p class="text-gray-500 text-center px-4 text-sm">[FITNESS 1]<br/>images/fitness1.jpg</p>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-2 text-brand-blue">Top Fitness Conforto</h3>
+                            <p class="text-gray-600 text-sm mb-3">Tecido respirável</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xl font-bold text-brand-rose">R$ 89,90</span>
+                                <a href="https://www.modasdilo.com.br/fitness/" class="bg-brand-rose text-white px-4 py-2 rounded-full text-sm hover:bg-opacity-90 transition-all font-semibold">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produto Fitness 2 -->
+                    <div class="product-card bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-gray-100">
+                        <div class="bg-gray-200 aspect-[3/4] flex items-center justify-center">
+                            <p class="text-gray-500 text-center px-4 text-sm">[FITNESS 2]<br/>images/fitness2.jpg</p>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-2 text-brand-blue">Legging Power</h3>
+                            <p class="text-gray-600 text-sm mb-3">Alta compressão</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xl font-bold text-brand-rose">R$ 129,90</span>
+                                <a href="https://www.modasdilo.com.br/fitness/" class="bg-brand-rose text-white px-4 py-2 rounded-full text-sm hover:bg-opacity-90 transition-all font-semibold">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produto Fitness 3 -->
+                    <div class="product-card bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-gray-100">
+                        <div class="bg-gray-200 aspect-[3/4] flex items-center justify-center">
+                            <p class="text-gray-500 text-center px-4 text-sm">[FITNESS 3]<br/>images/fitness3.jpg</p>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-2 text-brand-blue">Conjunto Athleisure</h3>
+                            <p class="text-gray-600 text-sm mb-3">Top + shorts</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xl font-bold text-brand-rose">R$ 159,90</span>
+                                <a href="https://www.modasdilo.com.br/fitness/" class="bg-brand-rose text-white px-4 py-2 rounded-full text-sm hover:bg-opacity-90 transition-all font-semibold">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produto Fitness 4 -->
+                    <div class="product-card bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-gray-100">
+                        <div class="bg-gray-200 aspect-[3/4] flex items-center justify-center">
+                            <p class="text-gray-500 text-center px-4 text-sm">[FITNESS 4]<br/>images/fitness4.jpg</p>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-2 text-brand-blue">Top Nadador Premium</h3>
+                            <p class="text-gray-600 text-sm mb-3">Suporte máximo</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xl font-bold text-brand-rose">R$ 99,90</span>
+                                <a href="https://www.modasdilo.com.br/fitness/" class="bg-brand-rose text-white px-4 py-2 rounded-full text-sm hover:bg-opacity-90 transition-all font-semibold">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="https://www.modasdilo.com.br/fitness/" class="inline-block bg-brand-rose text-white font-bold text-lg px-10 py-4 rounded-full hover:bg-opacity-90 transition-all shadow-xl">
+                        Ver Toda Linha Fitness 💪
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARROSSEL 2 - MODA PRAIA -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4 text-brand-blue">🏖️ Para Brilhar no Sol</h2>
+                    <p class="text-xl text-gray-700">Cada corpo é perfeito do jeito que é. Encontre o biquíni que te faz se sentir maravilhosa!</p>
+                </div>
+                
+                <div class="grid md:grid-cols-4 gap-6 mb-8">
+                    <!-- Produto Praia 1 -->
+                    <div class="product-card bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-gray-100">
+                        <div class="bg-gray-200 aspect-[3/4] flex items-center justify-center">
+                            <p class="text-gray-500 text-center px-4 text-sm">[PRAIA 1]<br/>images/praia1.jpg</p>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-2 text-brand-blue">Biquíni Tropical</h3>
+                            <p class="text-gray-600 text-sm mb-3">Estampa exclusiva</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xl font-bold text-brand-rose">R$ 119,90</span>
+                                <a href="https://www.modasdilo.com.br/moda-praia/" class="bg-brand-rose text-white px-4 py-2 rounded-full text-sm hover:bg-opacity-90 transition-all font-semibold">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produto Praia 2 -->
+                    <div class="product-card bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-gray-100">
+                        <div class="bg-gray-200 aspect-[3/4] flex items-center justify-center">
+                            <p class="text-gray-500 text-center px-4 text-sm">[PRAIA 2]<br/>images/praia2.jpg</p>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-2 text-brand-blue">Maiô Elegance</h3>
+                            <p class="text-gray-600 text-sm mb-3">Decote discreto</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xl font-bold text-brand-rose">R$ 149,90</span>
+                                <a href="https://www.modasdilo.com.br/moda-praia/" class="bg-brand-rose text-white px-4 py-2 rounded-full text-sm hover:bg-opacity-90 transition-all font-semibold">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produto Praia 3 -->
+                    <div class="product-card bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-gray-100">
+                        <div class="bg-gray-200 aspect-[3/4] flex items-center justify-center">
+                            <p class="text-gray-500 text-center px-4 text-sm">[PRAIA 3]<br/>images/praia3.jpg</p>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-2 text-brand-blue">Saída Leve</h3>
+                            <p class="text-gray-600 text-sm mb-3">Tecido fluido</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xl font-bold text-brand-rose">R$ 89,90</span>
+                                <a href="https://www.modasdilo.com.br/moda-praia/" class="bg-brand-rose text-white px-4 py-2 rounded-full text-sm hover:bg-opacity-90 transition-all font-semibold">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produto Praia 4 -->
+                    <div class="product-card bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-gray-100">
+                        <div class="bg-gray-200 aspect-[3/4] flex items-center justify-center">
+                            <p class="text-gray-500 text-center px-4 text-sm">[PRAIA 4]<br/>images/praia4.jpg</p>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-2 text-brand-blue">Biquíni Hot Pants</h3>
+                            <p class="text-gray-600 text-sm mb-3">Cobertura extra</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xl font-bold text-brand-rose">R$ 129,90</span>
+                                <a href="https://www.modasdilo.com.br/moda-praia/" class="bg-brand-rose text-white px-4 py-2 rounded-full text-sm hover:bg-opacity-90 transition-all font-semibold">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="https://www.modasdilo.com.br/moda-praia/" class="inline-block bg-brand-rose text-white font-bold text-lg px-10 py-4 rounded-full hover:bg-opacity-90 transition-all shadow-xl">
+                        Ver Toda Moda Praia 🏖️
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARROSSEL 3 - PIJAMAS -->
+    <section class="py-20 bg-brand-peach">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4 text-brand-blue">✨ Para Brilhar no Dia a Dia</h2>
+                    <p class="text-xl text-gray-700">Porque você merece conforto e elegância até na hora de dormir!</p>
+                </div>
+                
+                <div class="grid md:grid-cols-4 gap-6 mb-8">
+                    <!-- Produto Pijama 1 -->
+                    <div class="product-card bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-gray-100">
+                        <div class="bg-gray-200 aspect-[3/4] flex items-center justify-center">
+                            <p class="text-gray-500 text-center px-4 text-sm">[PIJAMA 1]<br/>images/pijama1.jpg</p>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-2 text-brand-blue">Pijama Curto Soft</h3>
+                            <p class="text-gray-600 text-sm mb-3">100% algodão</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xl font-bold text-brand-rose">R$ 79,90</span>
+                                <a href="https://www.modasdilo.com.br/" class="bg-brand-rose text-white px-4 py-2 rounded-full text-sm hover:bg-opacity-90 transition-all font-semibold">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produto Pijama 2 -->
+                    <div class="product-card bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-gray-100">
+                        <div class="bg-gray-200 aspect-[3/4] flex items-center justify-center">
+                            <p class="text-gray-500 text-center px-4 text-sm">[PIJAMA 2]<br/>images/pijama2.jpg</p>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-2 text-brand-blue">Camisola Elegante</h3>
+                            <p class="text-gray-600 text-sm mb-3">Renda delicada</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xl font-bold text-brand-rose">R$ 69,90</span>
+                                <a href="https://www.modasdilo.com.br/" class="bg-brand-rose text-white px-4 py-2 rounded-full text-sm hover:bg-opacity-90 transition-all font-semibold">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produto Pijama 3 -->
+                    <div class="product-card bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-gray-100">
+                        <div class="bg-gray-200 aspect-[3/4] flex items-center justify-center">
+                            <p class="text-gray-500 text-center px-4 text-sm">[PIJAMA 3]<br/>images/pijama3.jpg</p>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-2 text-brand-blue">Robe Cozy</h3>
+                            <p class="text-gray-600 text-sm mb-3">Flanela macia</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xl font-bold text-brand-rose">R$ 99,90</span>
+                                <a href="https://www.modasdilo.com.br/" class="bg-brand-rose text-white px-4 py-2 rounded-full text-sm hover:bg-opacity-90 transition-all font-semibold">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produto Pijama 4 -->
+                    <div class="product-card bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-gray-100">
+                        <div class="bg-gray-200 aspect-[3/4] flex items-center justify-center">
+                            <p class="text-gray-500 text-center px-4 text-sm">[PIJAMA 4]<br/>images/pijama4.jpg</p>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg mb-2 text-brand-blue">Pijama Longo Inverno</h3>
+                            <p class="text-gray-600 text-sm mb-3">Quentinho e charmoso</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-xl font-bold text-brand-rose">R$ 109,90</span>
+                                <a href="https://www.modasdilo.com.br/" class="bg-brand-rose text-white px-4 py-2 rounded-full text-sm hover:bg-opacity-90 transition-all font-semibold">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="https://www.modasdilo.com.br/" class="inline-block bg-brand-rose text-white font-bold text-lg px-10 py-4 rounded-full hover:bg-opacity-90 transition-all shadow-xl">
+                        Ver Todas as Peças ✨
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 text-brand-blue">
+                    Você Merece Este Presente! 🌹
+                </h2>
+                <p class="text-xl md:text-2xl text-gray-700 mb-8">
+                    Esta semana é sobre <strong class="text-brand-rose">você</strong>: seu corpo, sua autoestima, sua confiança. 
+                    Celebre quem você é com peças que te fazem sentir <strong>incrível</strong> em todos os momentos!
+                </p>
+                
+                <div class="bg-gradient-to-r from-brand-rose/20 to-brand-nude/20 rounded-3xl p-8 mb-8 border-2 border-brand-rose/30">
+                    <div class="grid md:grid-cols-3 gap-6 text-left">
+                        <div class="flex items-start gap-3">
+                            <span class="text-3xl">💳</span>
+                            <div>
+                                <h4 class="font-bold text-lg text-brand-blue mb-1">Parcele sem juros</h4>
+                                <p class="text-gray-700">Até 3x no cartão</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-3xl">📦</span>
+                            <div>
+                                <h4 class="font-bold text-lg text-brand-blue mb-1">Entrega rápida</h4>
+                                <p class="text-gray-700">Para todo Brasil</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-3xl">🔒</span>
+                            <div>
+                                <h4 class="font-bold text-lg text-brand-blue mb-1">Compra segura</h4>
+                                <p class="text-gray-700">Pagamento protegido</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://www.modasdilo.com.br/" class="inline-block bg-gradient-to-r from-brand-rose to-brand-gold text-white font-bold text-2xl px-16 py-6 rounded-full hover:shadow-2xl transition-all transform hover:scale-105 shine-effect mb-4">
+                    💛 Quero Me Presentear Agora!
+                </a>
+                
+                <p class="text-sm text-gray-600">
+                    ⏰ Promoção válida até 08/03 às 23h59 | Desconto automático no carrinho
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-brand-blue py-12 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-2xl font-bold mb-4 text-brand-gold">Modas Dilô</h3>
+            <p class="text-gray-300 mb-6">Moda feminina com qualidade e estilo para todas as mulheres</p>
+            <div class="flex justify-center gap-8 mb-6 flex-wrap">
+                <a href="https://www.modasdilo.com.br/" class="hover:text-brand-gold transition-colors">🛍️ Loja Online</a>
+                <a href="https://www.instagram.com/modasdilo/" target="_blank" class="hover:text-brand-gold transition-colors">📷 Instagram</a>
+                <a href="https://www.modasdilo.com.br/moda-praia/" class="hover:text-brand-gold transition-colors">🏖️ Moda Praia</a>
+            </div>
+            <p class="text-sm text-gray-400">© 2026 Modas Dilô - Recreio dos Bandeirantes, RJ</p>
+            <p class="text-xs text-gray-500 mt-4">💛 Feliz Dia das Mulheres! Você é incrível!</p>
+        </div>
+    </footer>
+
+    <script>
+        // Countdown Timer
+        function updateCountdown() {
+            const endDate = new Date('2026-03-08T23:59:59').getTime();
+            const now = new Date().getTime();
+            const distance = endDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById('days').textContent = String(days).padStart(2, '0');
+            document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+            document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+            document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+
+            if (distance < 0) {
+                clearInterval(countdownInterval);
+                document.getElementById('countdown').innerHTML = '<p class="text-2xl font-bold text-brand-blue">Promoção Encerrada</p>';
+            }
+        }
+
+        updateCountdown();
+        const countdownInterval = setInterval(updateCountdown, 1000);
+    </script>
+</body>
+</html>
